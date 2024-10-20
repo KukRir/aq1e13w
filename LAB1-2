@@ -1,0 +1,37 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+  float x,x1,x2,dx,y,r=2;
+
+do
+{
+  cout << "Enter X first";
+cin >> x1;
+cout << "Enter X last";
+cin >> x2;
+cout << "Enter dX";
+cin >> dx;
+}while (x1>-7 and x1<3 and x2>-7 and x2<3);
+cout << "  " << "x" "  " << "y"<<endl;
+for (x=x1; x<=x2;x+=dx)
+{
+  if(x>=-7 and x<6)
+{
+y=2;
+cout << "  " << "x " <<x<< "  " << "y " <<y<< endl;
+}
+  else if(x>-6 and x<=-2)
+{
+y=0.25*x+0.5;
+cout << "  " << "x " <<x<< "  " << "y " <<y<< endl;
+}
+  else if(x>-2 and x<0)
+{
+y=sqrt(r*r-x*x);
+
+}
+}
+
+} 
